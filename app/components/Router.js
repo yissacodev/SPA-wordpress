@@ -22,7 +22,7 @@ export async function Router() {
         Cuando termina el loader se quita
         */
         await ajax({  
-            url: api.POST,
+            url: api.POSTS,
             cbSuccess: (posts) => {
                 console.log(posts);
                 let html = "";
